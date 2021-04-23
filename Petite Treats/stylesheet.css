@@ -1,0 +1,174 @@
+body {
+  text-align: center;
+  font-family: serif;
+}
+
+hr {
+  width: 50%;
+}
+.reviews {
+  color: black;
+  text-align: center;
+}
+
+
+.signup {
+  float: left;
+  color: black;
+  width:250px;
+  border-style: dashed;
+  border-color: #deaa88;
+}
+
+.navbar {
+  display:inline-flex;
+  overflow: hidden;
+
+}
+
+ul.navbar li {
+  margin-right: 30px;
+  padding: 0.2em;
+  text-align: center;
+  color: white;
+}
+
+ul.navbar a {
+  float: left;
+  color: #deaa88;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 17px;
+  text-align: center;
+}
+
+.foodinfo {
+    float: right;
+    margin-right: 250px;
+}
+
+ul.foodlist li {
+  color: white;
+}
+
+.info {
+  float: left;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.navbar-bottom {
+  display:inline-flex;
+  text-align: right;
+  padding-left: 430px;
+}
+
+.navbar-bottom li {
+  margin-right: 30px;
+  padding: 0.2em;
+  text-align: center;
+  color: #deaa88;
+}
+
+ul.navbar-bottom a {
+  float: left;
+  color: white;
+  padding: 10px 10px;
+  font-size: 17px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+
+.row {
+  margin-left: 250px;
+}
+
+.row2 {
+  margin-left: 250px;
+  padding-bottom: 100px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  color: white;
+  text-align: center;
+  position: relative;
+  font-family: sans-serif;
+  font-size: 30px;
+  text-shadow: 2px 2px #ff0000;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.items {
+  float: left;
+  margin-left: 150px;
+}
+
+.history {
+  float: left;
+  padding-right: 35px;
+}
+
+.history img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px; 
+}
+
+
+.baker img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+.topblock{
+  display: inline-flex;
+  border-color: black;
+}
+
+.location img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+.about{
+  padding-bottom: 100px;
+}
+
+#footer {
+  position: fixed;
+  width: 100%;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 90px;
+  background-color: #deaa88;
+  color: white;
+  }
+
+
